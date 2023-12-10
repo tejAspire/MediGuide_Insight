@@ -36,11 +36,11 @@ Predict Drug:
 
 Click the "Predict Drug" button to get recommendations for medications associated with the predicted diseases.
 Screenshots
-Screenshot 1
-Caption for Screenshot 1.
+![image](https://github.com/tejAspire/MediGuide_Insight/assets/107415369/f0fd01fe-0ca0-4d76-8d80-2d47dbb05811)
 
-Screenshot 2
-Caption for Screenshot 2.
+
+![image](https://github.com/tejAspire/MediGuide_Insight/assets/107415369/6727fd9b-fa78-471f-8545-b6e8321322a0)
+
 
 Contributions
 Contributions are welcome! Feel free to open issues, submit pull requests, or provide feedback to enhance the functionality and usability of MediGuide Insight.
