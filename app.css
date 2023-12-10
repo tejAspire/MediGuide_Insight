@@ -1,0 +1,130 @@
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.body {
+	background: #000000;
+	color: #fff; /* Set text color to white */
+}
+/* Customize radio button label styles */
+.switch-field label {
+	
+	background-color: #333;
+	/* Dark gray background */
+	color: #fff;
+	/* White text */
+	font-size: 16px;
+	/* Increase font size */
+	line-height: 1.2;
+	/* Adjust line height for better spacing */
+	text-align: center;
+	padding: 10px 20px;
+	/* Increase padding for better visibility */
+	margin-right: -1px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	/* Rounded corners */
+	cursor: pointer;
+	transition: all .5s ease-in-out;
+	font-weight: bold;
+	/* Make text bold */
+	align-self: center;
+}
+.switch-field input[type="radio"] {
+    
+    display:none;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid #fff; /* Add border for the radio button */
+    width: 20px; /* Adjust the width of the radio button */
+    height: 20px; /* Adjust the height of the radio button */
+    border-radius: 50%; /* Make it circular */
+    outline: none;
+    margin: 0; /* Remove default margin */
+	
+}
+/* Add hover effect for radio button labels */
+.switch-field label:hover {
+	background-color: #555;
+	/* Slightly lighter gray on hover */
+	align-self: center;
+}
+.switch-field {
+	/* display: block;
+	margin: 0 auto; */
+	/* Center the element horizontally */
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+  } 
+
+/* Customize checked radio button label */
+.switch-field input[type="radio"]:checked+label {
+	background-color: #00cc66;
+	/* Green color for checked option */
+	box-shadow: none;
+	font-weight: bold;
+	/* Make text bold */
+	align-self: center;
+	text-align: center;
+	display: block;
+	
+	/* Center the element horizontally */
+	text-align: center;
+}
+
+/* Update form styles */
+.form {
+	max-width: 450px;
+	/* Increased max-width */
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.625;
+	margin: 8px auto;
+	padding: 30px;
+	/* Increased padding for better spacing */
+	z-index: 2;
+	background-color: #222;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Update input field styles */
+.age,
+.area,
+.location,
+.symp,
+.disease,
+.drug {
+	background: #444;
+	border: 0;
+	margin: 0 auto 10px;
+	/* Center the elements and add bottom margin */
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	/* Make the elements behave like block elements */
+	width: auto;
+	/* Make the elements take up full width */
+}
+/* Add hover effect for buttons */
+.disease:hover,
+.drug:hover {
+	background: #05a75e;
+	/* Green color on hover */
+}
+
+/* Update h2 styles */
+h2 {
+	font-size: 18px;
+	margin-bottom: 8px;
+	color: #00cc66;
+	text-align: center; /* Center-align the text */
+  }
+h1 {
+	font-size: 32px;
+	margin-bottom: 8px;
+	color: #00cc66;
+	text-align: center; /* Center-align the text */
+  }
+  
